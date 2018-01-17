@@ -13,6 +13,7 @@ namespace VisualStudioDemo
 
             Console.WriteLine("Visual Studio Demo");
             Console.ReadLine();
+            Console.WriteLine("Hello");
         }
     }
 }
