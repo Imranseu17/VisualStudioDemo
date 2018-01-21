@@ -11,9 +11,8 @@ namespace VisualStudioDemo
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Visual Studio Demo");
-            Console.WriteLine("Hello");
-            Console.WriteLine("Imran");
+            string message = Message.GetMessage("en");
+            Console.WriteLine(message);
             Console.ReadLine();
             
         }
